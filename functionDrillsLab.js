@@ -5,7 +5,10 @@
 */
 
 //CODE HERE
-
+function helloWorld() {
+  console.log("Hello, World!")
+}
+helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 /*
@@ -15,7 +18,10 @@
 */
 
 //CODE HERE
-
+function printName(name){
+  console.log(`${name}`)}
+printName("Cameron")
+printName("Bill")
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -29,8 +35,10 @@
 */
 
 //CODE HERE
-
-
+function greeting(name){
+  console.log(`"Hello", ${name}`)
+}
+greeting("Chase")
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -40,7 +48,12 @@
 */
 
 //CODE HERE
-
+let sum
+function add(a, b){
+  Number(a, b)
+  return sum=a + b
+}
+console.log(add(10,20))
 
 ////////////////// PROBLEM 5 ////////////////////
 /*
@@ -52,7 +65,23 @@
 */
 
 //CODE HERE
+function nameCheck(name){
+    if (name == "Steven")
+    {
+    console.log("What is up Steven?")
+  }
 
+
+    else if (name == "Bryan")
+  {
+    console.log(`Cool name, ${name}`)
+  }
+
+  else {
+    console.log("Who are you?")
+  }
+}
+nameCheck("john")
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -65,10 +94,27 @@
 */
 
 //CODE HERE
+const colorRating = 
+function faveColorFinder(color){
+if (color == "red"){
+  console.log('red is a great color')
+}
+else if (color == "green"){
+console.log("green is a solid favorite color")
+}
+else if (color == "black"){
+  console.log('so trendy')
+}
+else {
+  console.log('You need to evaluate your favorite color')
+}
+}
+colorRating("red")
+
 
 
 ////////////////// PROBLEM 7 ////////////////////
-let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
+let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl'];
 /*
   Create a function called printAllNames that takes in a single argument (an array of names).
   Using a for loop, iterate over that array and console log each name.
@@ -76,7 +122,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+function printAllNames(namesArr){
+  for(i=0; i< namesArr.length; i++ ){
+    console.log(namesArr[i])
+  }
+}
+printAllNames(namesArr)
 
 ////////////////// PROBLEM 8 ////////////////////
 /*
@@ -87,10 +138,20 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+const oddChecker=
+function thatsOdd(number){
+  if (number%2 == 0){
+    console.log(`That's not odd!`)
+}
+else if (number%3 == 0){
+console.log("That is odd indeed!")
+}
+else ("Please enter a number")
+}
+oddChecker(3)
 
 ////////////////// PROBLEM 9 ////////////////////
-let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
+let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107];
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr',  which will be an array of numbers. 
   Inside of the bigOrSmall function, create a new array called 'answers'. 
@@ -100,7 +161,30 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
   Return the answers array inside of the function to a variable called `arrayEvaluator`.
 */
 
-//CODE HERE
+// //CODE HERE
+
+let sortedArry = []
+
+ const arrayEvaluator = function bigOrSmall(myArr){
+  for(i=0; i< myArr.length; i++) 
+  {
+      console.log( myArr[i]);
+
+      if( myArr[i]>100){
+          sortedArry.push( myArr[i])
+          sortedArry.push("big")
+      }
+      if(myArr[i]<=100){
+        sortedArry.push( myArr[i])
+        sortedArry.push("small")
+    }
+      console.log(sortedArry);
+  }
+ }
+arrayEvaluator(bigOrSmallArray)
+
+
+
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -112,7 +196,12 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
+function theEliminator(contestants[], loser){
+  for(i=0; i> contestants.length; i++)
+  if(name=loser){
 
+  }
+}
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
