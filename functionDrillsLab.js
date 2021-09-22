@@ -196,12 +196,20 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
-function theEliminator(contestants[], loser){
-  for(i=0; i> contestants.length; i++)
-  if(name=loser){
+function theEliminator(contestants, loser){
+  console.log(contestants)
+ 
+  for(i=0; i< contestants.length; i++)
+ 
+    if(contestants[i] == 'Glimmer'){
 
+      contestants.splice(i,1);
+    }
+    console.log(contestants)
   }
-}
+
+
+theEliminator(contestants, loser)
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -211,8 +219,10 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
-
+function upperString (str){
+  console.log(str.toUpperCase)
+}
+upperString(sampleString)
 ////////////////// PROBLEM 12 ////////////////////
 /*
   Write a function called emailCheck that takes in
