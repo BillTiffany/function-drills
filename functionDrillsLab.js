@@ -259,12 +259,13 @@ emailCheck('Naruto@Kakashi.com')
 */
 
 //CODE HERE
-var totalGold = (23)
-var chockyFrog =(3)
+var maxGold = (1000)
+
 function frugalFrog(){
-console.log(totalGold/chockyFrog)
+  let chockyFrog =(3)
+console.log(maxGold/chockyFrog)
 }
-frugalFrog(23)
+let totalFrogs=frugalFrog(maxGold)
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
