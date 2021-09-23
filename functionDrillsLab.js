@@ -283,7 +283,7 @@ function frugalFrog2(cash) {
     return (cash-2)/3
   }
   }
-let totalFrogs2 = frugalFrog2(50)
+let totalFrogs2 = frugalFrog2(16)
 console.log(totalFrogs2)
 
 
@@ -297,7 +297,18 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 */
 
 //CODE HERE
-
+function isArrAscend(arr){
+let listValue= arr[0]
+for(let i=1; i<arr.length -1; i++){
+  if (arr[1]<=listValue) {
+    return false
+  }else {
+  listValue=arr[i]} 
+return true
+  }
+}
+let isArrayAscend = isArrAscend(sampleArray)
+console.log(isArrayAscend, "it is ascending")
 
 ////////////////// PROBLEM 16 ////////////////////
 
