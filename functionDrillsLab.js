@@ -236,16 +236,17 @@ upperString(sampleString)
 
 
 function emailCheck (email){
-  console.log(email.toString)
   console.log(email.trim());
 if(email.includes("@")){
     console.log('email verified')
   }
   else {
-    console.log('must provide a valid email address')
+    console.log(`I'm sorry Dave, I'm afraid I can't do that..you must provide a valid email address`)
   }
 }
-emailCheck("  john@hotmail.com")
+emailCheck("  johnhotmail.com")
+emailCheck('Naruto@Kakashi.com')
+
 
 
 
@@ -258,11 +259,17 @@ emailCheck("  john@hotmail.com")
 */
 
 //CODE HERE
+var totalFrogs = (10)
 
+function frugalFrog(){
+
+}
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
-  You might have noticed a slight bug in problem 12. If you were to pass in 4 gold, the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. You would just be able to purchase 1 product. Re-write the function you used in problem 12 (give it the same name, just add a 2 to the end of it) that fixes this bug. Invoke the function and store the returned value to a variable called `totalFrogs2`.
+  You might have noticed a slight bug in problem 12. If you were to pass in 4 gold, the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. 
+  You would just be able to purchase 1 product. Re-write the function you used in problem 12 (give it the same name, just add a 2 to the end of it) that fixes this bug. 
+  Invoke the function and store the returned value to a variable called `totalFrogs2`.
 */
 
 //CODE HERE
