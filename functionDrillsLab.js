@@ -259,11 +259,12 @@ emailCheck('Naruto@Kakashi.com')
 */
 
 //CODE HERE
-var totalFrogs = (10)
-
+var totalGold = (23)
+var chockyFrog =(3)
 function frugalFrog(){
-
+console.log(totalGold/chockyFrog)
 }
+frugalFrog(23)
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
@@ -272,13 +273,27 @@ function frugalFrog(){
   Invoke the function and store the returned value to a variable called `totalFrogs2`.
 */
 
-//CODE HERE
+// CODE HERE
+function frugalFrog2(cash) {
+  if(cash%3===0){
+  return cash/3
+}else if((cash-1)%3===0){
+    return (cash-1)/3
+  }else {
+    return (cash-2)/3
+  }
+  }
+let totalFrogs2 = frugalFrog2(50)
+console.log(totalFrogs2)
+
 
 
 ////////////////// PROBLEM 15 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 /*
-  Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
+  Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. 
+  The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` 
+  and set it equal to your function invoked. Use the sample array to test this function.
 */
 
 //CODE HERE
